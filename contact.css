@@ -1,0 +1,85 @@
+    body{
+        background-image:linear-gradient(rgba(0, 0, 0, 0.13),rgba(0,0,0,0.5)), url(./images/pexels-artem-beliaikin-853199.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica neue, Arial;
+    font-size: 18px;
+    }
+
+    ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    }
+
+    ul li{
+    display: inline-block;
+    }
+
+    ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    margin: 10px 20px
+    }
+
+    ul li a:hover{
+    background-color: #fff;
+    color: rgb(15, 1, 1);
+    }
+
+    ul li.active a{
+    background-color: #fff;
+    color: rgb(15, 1, 1);
+    }
+
+    .main-text {
+    text-align: justify;
+    margin-bottom: 60px;
+    color: aliceblue;
+    font-size: 22px;
+    }
+
+    .container {
+    width: 1140px;
+    margin: 20px auto 0 auto;
+    }
+
+    .blog-post {
+    widt h: 55%;
+    float: right;
+    padding-right: 30px;
+    }
+    body {
+    font-family: Helvetica neue, Arial;
+    font-size: 18px;
+    }
+
+    clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+    h1, h2 {
+    color: #09b91d;
+    
+    }
+
+    h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+
+
+    h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    } 
